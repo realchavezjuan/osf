@@ -11,3 +11,57 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#main-wrapper {
+  background-color: #22333B;
+  color: white;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero {
+  background-image: url("../src/assets/images/josh-beech-tXJhAFVOHVk-unsplash.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 80%;
+  display:flex;
+  justify-content: center;
+}
+
+.hero h1 {
+  margin: 200px;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-size: 2.4rem;
+}
+
+.grid-container {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: auto auto ;
+
+}
+
+.grid-item {
+  margin: 5px;
+}
